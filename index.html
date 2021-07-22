@@ -39,13 +39,13 @@
               <a class="nav-link js-scroll-trigger" href="#about">About Me</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#Research">Research</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#Projects">Projects</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="#Research">Research</a>
-              </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#more">More About Me</a>
+              <a class="nav-link js-scroll-trigger" href="#more">Awards</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -77,23 +77,52 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <h2>About Me</h2>
-            <p>A Senior in Computer Science in Purdue University, USA. A person who loves to learn new things no matter what the subject is. I never trust a theory before analyzing and applying it in real life (if applicable). I believe in hard work, perfection and I strive hard to achieve them even if the work is easy. A swimmer, tennis player, and a vivid reader. If I were to be asked to describe myself in one word, it would be VERSATILE.</p>
+            <p>A Master's student in Computer Science at University of California, Los Angeles, USA. A person who loves to learn new things no matter what the subject is. I never trust a theory before analyzing and applying it in real life (if applicable). I believe in hard work, perfection and I strive hard to achieve them even if the work is easy. A swimmer, tennis player, and avid reader. If I were to be asked to describe myself in one word, it would be VERSATILE.</p>
             <p>My motto is "Never stop improving and learning." With this, I plunged into the waters of Computer science. To learn and create new things.</p>
             <p>
               <li class="list-inline-item">
-                <a href="Sripath_Mishra_Resume.pdf" target="_blank" class="btn btn-default btn-lg">
+                <a href="Sripath_Mishra_CV.pdf" target="_blank" class="btn btn-default btn-lg">
                   <i></i>
-                  <span class="network-name">Resume</span>
+                  <span class="network-name">CV</span>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="https://github.com/sripathm22" target="_blank" class="btn btn-default btn-lg">
+                <a href="https://github.com/sripathm2" target="_blank" class="btn btn-default btn-lg">
                   <i class="fa fa-github fa-fw"></i>
                   <span class="network-name">Github</span>
                 </a>
               </li>
             </p>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="Research" class="project-section content-section text-center">
+      <div>
+        <div class="col-lg-8 mx-auto">
+          <h1>Research</h1>
+          <div align="left">
+            <p><h4>Scalable Analytics Institute, University of California, Los Angeles :</h4>
+            Developing a GNN model to predict bug location in python Github projects using python code ast and text data from GitHub issues.
+            </p>
+
+            <p><h4>Continuous Analysis of Many Cameras, Purdue University :</h4>
+            Our aim was in centralizing and allowing access to a database containing camera feeds around the globe.
+            My team has completed working on an REST API to allow access to the Database. In addition to that we have created a
+            client in python which allows successful interaction with the API. We created scripts to check the health and accuracy
+            of the camera feed.  After this we shifted our focus towards experiments to create a generalized solution to classify
+            if a web page contains camera data and if it does, we extracted the information of the camera and add to it our
+            database. We also created an image database which will allow the user to search for camera feed
+            for objects in near real time.
+            </p>
+            <h6>Publications: </h6>
+            Aditya Chakraborty, Akshay Pawar, Hojoung Jang, Shunqiao Huang, Sripath Mishra, Shuo-Han Chen, Yuan-Hao Chang, George K. Thiruvathukal and Yung-Hsiang Lu, “A Real-Time Feature Indexing System on Live Video Streams,” 2020 IEEE 44th Annual Computer Software and Applications Conference (COMPSAC), Madrid, Spain, 2020.
+            <p></p>
+            Dailey, R., Chawla, A., Liu, A., Mishra, S., Zhang, L., Majors, J., Lu, Y.-H., & Thiruvathukal, G. K. (2021, March 23). Automated Discovery of Real-Time Network Camera Data From Heterogeneous Web Pages. arXiv.org. https://arxiv.org/abs/2103.12286.
+
+            </p></div>
         </div>
       </div>
     </section>
@@ -106,6 +135,34 @@
               <div align="left">
                 <p><h4>Course projects</h4>
                   <ul>
+                    <li>
+                      Name	: A Survey of Graph Neural Networks for Programming Languages
+                      <br>
+                      Description:
+                      Research at the intersection of Programming Languages, Deep Learning and Graph Neural Networks has
+                      been rapidly evolving over the past few years. Deep Learning and Graph Neural Network techniques
+                      has shown tremendous progress and potential across a variety of sub domains in Programming Languages.
+                      Our goal with this paper is to survey the rise of Neural techniques and the integration and use
+                      of Graph Neural Networks in these techniques, spanning some interesting subdomains. We also point
+                      the users towards a common benchmark across Programming Languages and NLP and present ideas on
+                      generalized representation learning of Code using GNNs.
+                    </li>
+                    <li>
+                      Name	: Dynamic GNN for forecasting COVID-19 pandemic spread in United states
+                      <br>
+                      Description:
+                      Our objective is to design a dynamic graph neural network which fore-casts the Covid-19 pandemic
+                      spread inside the United States. We will approach this problem by building a graphG= (V,E) where
+                      the set V contains nodes representing places (e.g. cities, counties, states) while the set E
+                      contains edges representing relationships between the nodes. These relationships static or
+                      dynamic. Static edges could be defined an edge between city and county that the city is part of
+                      or two counties that share borders. Dynamic edges could be defined by time dependent data like
+                      human mobility between two states. The space and time dependent nature of a pandemic requires us
+                      to capture the temporal and spatial features that contributes to the spread. We need to come up
+                      with a model than can reconcile these spatial and temporal features to forecast the count of
+                      infections at each granularity levels(cities, counties, states). Dynamic graph neural networks are
+                      explored as a possible approach to make these forecasts.
+                    </li>
                     <li>
                       Name	: Fiesta
                       <br>
@@ -198,39 +255,11 @@
           </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="Research" class="project-section content-section text-center">
-        <div>
-          <div class="col-lg-8 mx-auto">
-            <h1>Research</h1>
-            <div align="left">
-              <p><h4>Details:</h4>
-                The current project is centralizing and allowing access to a database containing camera feeds around the globe. 
-                My team has completed working on an REST API to allow access to the Database. In addition to that we have created a 
-                client in python which allows successful interaction with the API. We created scripts to check the health and accuracy 
-                of the camera feed.  After this we shifted our focus towards experiments to create a generalized solution to classify 
-                if a web page contains camera data and if it does, we will extract the information of the camera and add to it out 
-                database. On the side we are working towards an image database which will allow the user to search for camera feed 
-                for objects in near real time.
-                My area of Contribution will be in ensuring that the CameraDatabaseAPI and the Camera Database Client are up to date 
-                and fast and efficient. My team and I would be constantly being working on these two child projects to keep them spick 
-                and span. Along with this, my team and I would be working on the health checking scripts. We will be using different 
-                techniques to determine the location of the camera, framerate of the camera along with resolution width and height. 
-                But, most importantly we will determine if images are retrievable from the camera feeds. We will also be marking the 
-                unhealthy cameras so that API users do not get bad data. We will try to automate the process of fixing unhealthy cameras.
-                We will also generate two solutions which can be used to classify a webpage, extract camera information and allow the user 
-                to search for camera feed for objects in near real time.
-              </p></div>
-             </div>
-        </div>
-  </section>
-
     <!-- more Section -->
     <section id="more" class="download-section content-section text-center">
       <div>
         <div class="col-lg-8 mx-auto">
-          <h1>More About Me</h1>
-          <a href="Sripath_Mishra_Resume.pdf" target="_blank">Resume</a> or contact me.</p>
+          <h1>Awards</h1>
           <div align="left">
             <p><h4>ACADEMICS</h4>
               <ul>
@@ -279,10 +308,10 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <h2>Contact</h2>
-            <p>Please feel free to contact me</p>
+            <p>Please feel free to contact me.</p>
             <ul class="list-inline banner-social-buttons">
               <li class="list-inline-item">
-                <a href="mailto:sripathm2@gmail.com" target="_blank" class="btn btn-default btn-lg">
+                <a href="mailto:mishra60@g.ucla.edu" target="_blank" class="btn btn-default btn-lg">
                   <i></i>
                   <span class="network-name">Email</span>
                 </a>
@@ -303,7 +332,7 @@
     <!-- Footer -->
     <footer>
       <div class="container text-center">
-        <p>Copyright &copy; Sripath Mishra 2019</p>
+        <p>Sripath Mishra 2021</p>
       </div>
     </footer>
 
